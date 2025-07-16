@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS posts (
+  id INTEGER PRIMARY KEY,
+  userId INTEGER,
+  title TEXT,
+  body TEXT,
+  fetched_at TEXT DEFAULT CURRENT_TIMESTAMP
+);
